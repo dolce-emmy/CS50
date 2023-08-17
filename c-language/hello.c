@@ -1,7 +1,11 @@
 #include <stdio.h>
+#include <cs50.h>
 
-int main(void) {
-    printf("Hello, WOrld!\n");
+int main(void) 
+{
+
+    string answer = get_string("what's your name? ");
+    printf("hello, %s\n", answer );
 }
 
 // stdio.h is a header file that contains the standard input/output library
@@ -21,3 +25,5 @@ int main(void) {
 // when remove semi colon from the code it will give an error hello.c:5:29: error: expected ';' after expression... that means on line 5 the 29th character is missing a semi colon
 
 // header files are files that contain the code that is used in the program and they are included in the program using #include <stdio.h>
+
+
