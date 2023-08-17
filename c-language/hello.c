@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int main(void) 
-{
+// int main(void) 
+// {
 
-    string answer = get_string("what's your name? ");
-    printf("hello, %s\n", answer );
-}
+//     string answer = get_string("what's your name? ");
+//     printf("hello, %s\n", answer );
+// }
 
 // stdio.h is a header file that contains the standard input/output library
 
@@ -26,4 +26,21 @@ int main(void)
 
 // header files are files that contain the code that is used in the program and they are included in the program using #include <stdio.h>
 
+//----------------------------------
 
+// here the %s is a placeholder for the string to plug in the value of the string
+
+
+// int main (void)
+// {
+//     string first = get_string("what's your first name? ");
+//     string last = get_string("what's your last name? ");
+//     printf("hello, %s %s\n", first, last);
+// }
+
+//here there are 2 arguments to the printf function the first is the string and the second is the variable that is to be printed
+int main (void)
+{
+   
+    printf("hello I got 100%%\n");
+}
