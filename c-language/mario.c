@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <cs50.h>
 
 int main (void) 
 
@@ -6,7 +7,9 @@ int main (void)
 
 // here we are giving const to n so that it can not be changed later on in the code
 
- const int n = 3;
+//  const int n = 3;
+
+int n = get_int("Size: ");
 
  for(int i = 0; i < n; i++) 
 {
