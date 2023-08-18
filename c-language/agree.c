@@ -18,7 +18,7 @@ int main (void)
 // here we are using the get_char function to get the value of c from the user 
 // here we are using the char data type to store the value of c as a character
 // here the char data is to agree or not agree to something
-// the char data uses single quotes to store the value of the character which is different from the string data type which uses double quotes to store the value of the string
+// the char data uses single quotes to store the value of a single character which is different from the string data type which uses double quotes to store the value of the string
 
 
 
